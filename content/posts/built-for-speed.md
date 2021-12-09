@@ -1,10 +1,10 @@
 ---
 title: Built For Speed
-subtitle: Awake is Built to Be Blazing Fast
+subtitle: LBEK is Built for earn knowladge
 category:
-  - About Awake
+  - About LBEK
 author: Daniel Kelly
-date: 2019-08-02T04:27:56.800Z
+date: 2021-08-02T04:27:56.800Z
 featureImage: /uploads/marc-olivier-jodoin-nqoinj-ttqm-unsplash.jpg
 ---
 Awake is fast for a couple different reasons. It both capitalizes on the platform it's built for (JAM Stack) and the framework it's built on (Nuxt.js) as well as includes some intentional optimizations to improve the end user experience when it comes to speed. 
@@ -27,7 +27,7 @@ Awake uses the [Bulma](https://bulma.io/) framework for a starting place for sty
 
 ## Font Awesome 5
 
-Awake comes with Font Awesome 5 support out of the box, so you have a wealth of free quality icons at your finger tips. However, if you're used to using Font Awesome in the more traditional manner without a build step you may be thinking: "What about all those icons I don't actually use? Aren't they just bloat?" Not so with Awake, with webpack we can bundle only the icons we're using. This does mean an extra step of registering a new icon when you want to use it, but that's as easy as adding it to an array in `config/modules.js` like so: 
+LBEK comes with Font Awesome 5 support out of the box, so you have a wealth of free quality icons at your finger tips. However, if you're used to using Font Awesome in the more traditional manner without a build step you may be thinking: "What about all those icons I don't actually use? Aren't they just bloat?" Not so with Awake, with webpack we can bundle only the icons we're using. This does mean an extra step of registering a new icon when you want to use it, but that's as easy as adding it to an array in `config/modules.js` like so: 
 
 ```
  icons: ['faTimes', 'faSearch', 'faEnvelope', 'faUser', 'faBriefcase']
